@@ -4,5 +4,5 @@ export const MAIN_ROUTES: Routes = [
     {
         path: '',
         loadChildren: () =>
-            import('./app/pages/page.roots').then((m) => m.PAGE_ROUTES)
+            import('./app/pages/page.routes').then((m) => m.PAGE_ROUTES)
     }];
